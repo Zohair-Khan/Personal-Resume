@@ -1,0 +1,241 @@
+%-------------------------
+% Resume in Latex
+% Author : Zohair Khan
+% Website: https://github.com/Zohair-Khan/resume
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.375in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+% Project Item
+\newcommand{\projectItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+% Project Formatting
+\newcommand{\resumeProjectSubheading}[3]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} {#2} & \textit{\small#3} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+% Relevant Coursework Formatting
+\newcommand{\resumeCoursework}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1}\\
+      \textit{\small#2} \\
+      \textit{\small #3} \\
+      \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+% %----------HEADING-----------------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{https://www.linkedin.com/in/khanzohair/}{\Large Zohair Khan}} & GitHub : \href{https://github.com/Zohair-Khan}{Zohair-Khan} \\
+%   \href{mailto:zohairkhanmail@gmail.com}{zohairkhanmail@gmail.com} & LinkedIn: \href{https://www.linkedin.com/in/khanzohair/}{khanzohair}\\
+%   +1-612-251-9420 \\ 
+%   % \href{personal website link}{personal website} & Phone : +1-612-251-9420 \\
+  
+% \end{tabular*} 
+
+\begin{center}
+    \textbf{\Huge \scshape Zohair Khan} \\ \vspace{1pt}
+    \textit{Motivated Senior CS Student looking for Software Engineering Internships} \\
+    \small \href{mailto:zohairkhanmail@gmail.com}{\underline{zohairkhanmail@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/khanzohair/}{\underline{linkedin.com/in/khanzohair}} $|$
+    \href{https://github.com/Zohair-Khan}{\underline{github.com/Zohair-Khan}} 
+\end{center} \vspace{-15pt}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Metropolitan State University}{St. Paul, MN}
+      {Bachelor of Science in Computer Science}{Expected Dec. 2024}
+    \resumeCoursework
+      {Relevant Coursework}
+      {Machine Architecture \& Organization, Algorithms \& Data Structures, Object-Oriented Design \& Implementation,}
+      {Database Management Systems, Networks \& Security, Organization of Programming Languages, Computational }
+      {Linear Algebra, Discrete Mathematics, Probability \& Statistics, Technical Writing, Operating Systems (Spring 2024)}
+  \resumeSubHeadingListEnd 
+
+%--------SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+   \item{
+     \textbf{Programming Languages:}\\{Proficient with Java, Python, C, C++. Entry-level with JavaScript, HTML/CSS, Bash, Perl, LISP, \& Prolog.} \\ \vspace{-5pt}
+   }
+   \item{
+     \textbf{Databases:}{ Proficient with MySQL, SQLite, JDBC, and creating relational database schema.} \\ \vspace{-5pt}
+     
+   }
+   \item{
+     \textbf{Software Development:}{ Version Control/Git, Technical Writing} \\ \vspace{-5pt}
+     
+   }
+   \item{
+     \textbf{Soft Skills:}{ Attention to Detail, Problem Solving, Teamwork/Collaboration, Technical Communication} \\ \vspace{-5pt}
+     
+   }   
+   
+ \resumeSubHeadingListEnd
+
+ %-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Math \& ACT/SAT Prep Tutor}{Minneapolis, MN}
+      {Self-Employed}{July 2020 - Present}
+      \resumeItemListStart
+        \projectItem
+          {Provide personalized tutoring sessions to high school students in various math subjects, including Algebra, Geometry, Trigonometry, and Calculus, tailoring lessons to meet individual learning styles and needs.}
+        \projectItem
+          {Develop comprehensive ACT/SAT preparation plans, incorporating strategies, practice tests, and targeted review sessions to help students maximize their scores.}
+        \projectItem
+          {Demonstrate a strong ability to articulate complex technical concepts in a clear and concise manner, effectively communicating with students of varying backgrounds and skill levels.}
+        \projectItem
+          {Consistent track record of success in raising students' grades and standardized test scores, with many achieving significant improvements.}
+      \resumeItemListEnd \vspace{-5pt}
+  \resumeSubHeadingListEnd 
+
+%-----------Projects-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectSubheading
+      {Car Sales Application}{\href{https://github.com/Zohair-Khan/CarHub}{(GitHub}} {Java, JavaFX/FXML, MySQL, Gradle}
+      \resumeItemListStart
+        \projectItem
+          {Full-stack application for selling cars with a JavaFX/CSS front-end and Java back-end.}
+        \projectItem
+          {Implemented user authentication functionalities allowing users to log in and out, as well as create, delete, and view listings for cars.}
+        \projectItem
+          {Utilized MySQL Database with JDBC connector to store and manage all listing and user information, ensuring data integrity and reliability.}
+      \resumeItemListEnd
+
+    \resumeProjectSubheading
+      {Mock Bar Management Application}{\href{https://github.com/Zohair-Khan/Mock-Bar-Management-Application}{(GitHub)}} {Java, Swing, MySQL, Maven}
+      \resumeItemListStart
+        \projectItem
+          {Full-stack application for managing a "mock" bar, with a Swing front-end and Java back-end.}
+        \projectItem
+          {Implemented database connectivity using JDBC and MySQL for storage and retrieval of bar-related data.}
+        \projectItem
+          {Developed features for viewing, adding, editing, and deleting items within the Ingredients, Suppliers, and Employees tables.}
+      \resumeItemListEnd
+    
+    \resumeProjectSubheading
+      {Chat Room Application}{\href{https://github.com/Zohair-Khan/UDP-Socket-Chat}{(GitHub)}} {Python}
+      \resumeItemListStart
+        \projectItem
+          {UDP socket based chat server and client program written in Python.}
+        \projectItem
+          {Server allows multiple clients to connect simultaneously and communicate with each other through public and direct messages.}
+      \resumeItemListEnd
+
+    \resumeProjectSubheading
+      {TLS File Transfer Application}{\href{https://github.com/Zohair-Khan/TLS-File-Transfer}{(GitHub)}} {Python}
+      \resumeItemListStart
+        \projectItem
+          {Secure file transfer application implementing TLS encryption to transfer files from a client to a host, written in Python.}
+      \resumeItemListEnd
+
+    \resumeProjectSubheading
+      {Decklist Auto-Filler Extension}{\href{https://chromewebstore.google.com/detail/decklist-auto-filler/knjanhkpoicpjebbkpcnbinkbdhhpfld}{(Chrome Web Store)}} {HTML, CSS, JavaScript}
+      \resumeItemListStart
+        \projectItem
+          {Google Chrome extension for automatically migrating YuGiOh decklists from popular online simulators to tournament registration websites.}
+        \projectItem
+          {Converts a Base64 encoded string into a list of card IDs, converts the IDs to card names, then seamlessly populates an HTML registration form with the card names.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+% %-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{Github Visualization}
+%       {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and Movie recommender systems using collaborative filtering on public datasets.}
+% %     \resumeSubItem{Mac Setup}
+% %       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%   \resumeSubHeadingListEnd
+
+% %
+
+\end{document}
