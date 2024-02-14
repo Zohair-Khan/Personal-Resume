@@ -1,4 +1,4 @@
 # Personal Resume
-<object data="ZohairKhanResumeNoPN.pdf" width="1000" height="1000" type='application/pdf'></object>
+<iframe src="https://docs.google.com/gview?url=[http://example.com/mypdf.pdf](https://github.com/Zohair-Khan/Personal-Resume/blob/main/ZohairKhanResumeNoPN.pdf)&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
 ![Zohair Khan's Resume](ZohairKhanResumeNoPN.png)
 
