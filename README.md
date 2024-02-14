@@ -1,2 +1,2 @@
 # Personal Resume
-![Zohair Khan's Resume](ZohairKhanResume.png)
+![Zohair Khan's Resume](ZohairKhanResumeNoPN.png)
