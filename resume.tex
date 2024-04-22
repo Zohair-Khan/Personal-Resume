@@ -40,8 +40,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-8pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-8pt}]
 
 %-------------------------
 % Custom commands
@@ -54,15 +54,17 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+      \textbf{#1} & #2 \vspace{-2pt}\\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-8pt}
 }
+
+
 
 % Project Item
 \newcommand{\projectItem}[1]{
   \item\small{
-    {#1 \vspace{-2pt}}
+    {#1 \vspace{-4pt}}
   }
 }
 
@@ -71,14 +73,23 @@
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \textbf{#1} {#2} & \textit{\small#3} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-8pt}
+}
+
+% Achievement Formatting
+\newcommand{\resumeAchievementSubheading}[5]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} {#2} & \textbf{#3} \vspace{-2pt}\\
+      \textit{\small#4} & \textit{\small #5} \\
+    \end{tabular*}\vspace{-8pt}
 }
 
 % Relevant Coursework Formatting
 \newcommand{\resumeCoursework}[4]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textbf{#1}\\
+      \textbf{#1} \vspace{-2pt}\\
       {\small#2} \\
       {\small #3} \\
       {\small #4} \\
@@ -92,7 +103,7 @@
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-8pt}}
 
 %-------------------------------------------
 %%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -111,11 +122,12 @@
 
 \begin{center}
     \textbf{\Huge \scshape Zohair Khan} \\ \vspace{1pt}
-    \textit{Motivated Senior CS Student looking for Software Engineering Internships} \\
-    \small \href{mailto:zohairkhanmail@gmail.com}{\underline{zohairkhanmail@gmail.com}} $|$ 
+    \textit {Motivated Senior CS Student looking for Software Engineering Internships} \\
+    \href{mailto:zohairkhanmail@gmail.com}{\underline{zohairkhanmail@gmail.com}} $|$ 
     \href{https://www.linkedin.com/in/khanzohair/}{\underline{linkedin.com/in/khanzohair}} $|$
     \href{https://github.com/Zohair-Khan}{\underline{github.com/Zohair-Khan}} 
-\end{center} \vspace{-15pt}
+\end{center} 
+\vspace{-21pt}
 
 
 %-----------EDUCATION-----------------
@@ -123,65 +135,90 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Metropolitan State University}{St. Paul, MN}
-      {Bachelor of Science in Computer Science}{Expected Dec. 2024}
+      {Bachelor of Science in Computer Science}{Expected Dec. 2024} \vspace{-5pt}
     \resumeCoursework
       {Relevant Coursework}
-      {Machine Architecture \& Organization, Algorithms \& Data Structures, Object-Oriented Design \& Implementation,}
+      {Computer Architecture \& Organization, Algorithms \& Data Structures, Object-Oriented Design \& Implementation,}
       {Database Management Systems, Networks \& Security, Organization of Programming Languages, Computational }
       {Linear Algebra, Discrete Mathematics, Probability \& Statistics, Technical Writing, Operating Systems (Spring 2024)}
-  \resumeSubHeadingListEnd 
+  \resumeSubHeadingListEnd \vspace{-15pt}
 
 %--------SKILLS------------
 \section{Skills}
  \resumeSubHeadingListStart
    \item{
-     \textbf{Programming Languages:}\\{Proficient with Java, Python, C, C++. Entry-level with JavaScript, HTML/CSS.} \\ \vspace{-5pt}
+     \textbf{Programming Languages:} {Proficient in Java, Python, C, C++. Entry-level HTML/CSS/JavaScript.} \\ \vspace{-5pt}
    }
    \item{
      \textbf{Databases:}{ Proficient with SQL, including MySQL and SQLite.} \\ \vspace{-5pt}
-     
    }
    \item{
-     \textbf{Software Development:}{ Version Control/Git, Technical Writing} \\ \vspace{-5pt}
-     
+     \textbf{Software Development:}{ Version Control/Git, Unit Testing, Complexity Analysis, Technical Writing} \\ \vspace{-5pt}
+   }
+    \item{
+     \textbf{Operating Systems:}{ Windows, Linux} \\ \vspace{-5pt}
    }
    \item{
-     \textbf{Soft Skills:}{ Attention to Detail, Problem Solving, Teamwork/Collaboration, Technical Communication} \\ \vspace{-5pt}
-     
-   }   
+     \textbf{Soft Skills:}{ Attention to Detail, Creative Problem Solving, Collaboration, Technical Communication} \\ \vspace{-1pt}
+   }
    
  \resumeSubHeadingListEnd
 
  %-----------EXPERIENCE-----------------
-\section{Experience}
+\section{Experience} 
   \resumeSubHeadingListStart
     \resumeSubheading
       {Math \& ACT/SAT Prep Tutor}{Minneapolis, MN}
       {Self-Employed}{July 2020 - Present}
       \resumeItemListStart
         \projectItem
-          {Provide personalized tutoring sessions to high school students in various math subjects, including Algebra, Geometry, Trigonometry, and Calculus, tailoring lessons to meet individual learning styles and needs.}
+          {Providing personalized tutoring sessions to high school students in various math subjects, including Algebra, Geometry, Trigonometry, and Calculus, tailoring lessons to meet individual learning styles and needs.}
         \projectItem
-          {Develop comprehensive ACT/SAT preparation plans, incorporating strategies, practice tests, and targeted review sessions to help students maximize their scores.}
+          {Developing comprehensive ACT/SAT preparation plans, incorporating strategies, practice tests, and targeted review sessions to help students maximize their scores.}
         \projectItem
-          {Demonstrate a strong ability to articulate complex technical concepts in a clear and concise manner, effectively communicating with students of varying backgrounds and skill levels.}
+          {Demonstrating a strong ability to articulate complex technical concepts in a clear and concise manner, effectively communicating with students of varying backgrounds and skill levels.}
         \projectItem
-          {Consistent track record of success in raising students' grades and standardized test scores, with many achieving significant improvements.}
-      \resumeItemListEnd \vspace{-5pt}
+          {Consistent track record of success in significantly raising students' grades and standardized test scores.}
+      \resumeItemListEnd 
   \resumeSubHeadingListEnd 
+
+%-----------Acheivements-----------------
+\section{Achievements}
+    \resumeSubHeadingListStart
+        \resumeAchievementSubheading
+          {CornHacks 2024}{\href{https://github.com/Zohair-Khan/CornHacks2024}{(GitHub)}}{2\textsuperscript{nd} Place}
+          {Feb 2024}{Python, PyGame, MySQL}
+          \resumeItemListStart
+            \projectItem
+              {Led a 4-person team comprised of undergraduate students from various academic years during a 24-hour hackathon, developing a PyGame-based roguelike game based on the hackathon's theme.}
+            \projectItem
+              {Applied object-oriented programming principles to architect and implement engaging gameplay elements.}
+            \projectItem
+              {Integrated a dynamic combat system, strategic power-ups, and a scoring mechanism, augmented by a SQL-powered leaderboard to foster competitive engagement.}
+            \projectItem
+              {Organized workflow efficiently, leveraging each team member's strengths to delegate tasks effectively and optimize productivity throughout the 24-hour development process.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
 
 %-----------Projects-----------------
 \section{Projects}
   \resumeSubHeadingListStart
     \resumeProjectSubheading
+      {Decklist Auto-Filler Extension}{\href{https://chromewebstore.google.com/detail/decklist-auto-filler/knjanhkpoicpjebbkpcnbinkbdhhpfld}{(Chrome Web Store)}} {HTML, CSS, JavaScript}
+      \resumeItemListStart
+        \projectItem
+          {Google Chrome extension for automatically migrating YuGiOh decklists from popular online simulators to tournament registration websites. \textbf{100+ daily users.}}
+        \projectItem
+          {Converts a Base64 encoded string into a list of card IDs, converts the IDs to card names, then seamlessly populates an HTML registration form with the card names.}
+      \resumeItemListEnd
+  
+    \resumeProjectSubheading
       {Car Sales Application}{\href{https://github.com/Zohair-Khan/CarHub}{(GitHub)}} {Java, JavaFX/FXML, MySQL, Gradle}
       \resumeItemListStart
         \projectItem
-          {Full-stack application for selling cars with a JavaFX/CSS front-end and Java back-end.}
+          {Full-stack application for selling cars with a JavaFX/CSS front-end and Java back-end. MySQL database used with JDBC to store and manage all listing and user information, ensuring data integrity and reliability.}
         \projectItem
           {Implemented user authentication functionalities allowing users to log in and out, as well as create, delete, and view listings for cars.}
-        \projectItem
-          {Utilized MySQL Database with JDBC connector to store and manage all listing and user information, ensuring data integrity and reliability.}
       \resumeItemListEnd
 
     \resumeProjectSubheading
@@ -190,9 +227,7 @@
         \projectItem
           {Full-stack application for managing a "mock" bar, with a Swing front-end and Java back-end.}
         \projectItem
-          {Implemented database connectivity using JDBC and MySQL for storage and retrieval of bar-related data.}
-        \projectItem
-          {Developed features for viewing, adding, editing, and deleting items within the Ingredients, Suppliers, and Employees tables.}
+          {JDBC used to perform CRUD operations on a MySQL database with bar-related data, including ingredients, suppliers, employees, and more.}
       \resumeItemListEnd
     
     \resumeProjectSubheading
@@ -211,17 +246,14 @@
           {Secure file transfer application implementing TLS encryption to transfer files from a client to a host, written in Python.}
       \resumeItemListEnd
 
-    \resumeProjectSubheading
-      {Decklist Auto-Filler Extension}{\href{https://chromewebstore.google.com/detail/decklist-auto-filler/knjanhkpoicpjebbkpcnbinkbdhhpfld}{(Chrome Web Store)}} {HTML, CSS, JavaScript}
-      \resumeItemListStart
-        \projectItem
-          {Google Chrome extension for automatically migrating YuGiOh decklists from popular online simulators to tournament registration websites.}
-        \projectItem
-          {Converts a Base64 encoded string into a list of card IDs, converts the IDs to card names, then seamlessly populates an HTML registration form with the card names.}
-      \resumeItemListEnd
+
+      
 
   \resumeSubHeadingListEnd
 
+
+
+    
 
 % %-----------PROJECTS-----------------
 % \section{Projects}
